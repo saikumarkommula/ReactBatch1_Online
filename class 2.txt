@@ -1,0 +1,121 @@
+class -2 :
+----------------
+haii..
+wait for few minutes 
+please check voice is audible or not and  video also 
+----------------------------------------------------------------------------
+class :1
+----------
+React js
+installation of vs code, node,
+creation of react js application in vs code
+
+** creation of react app:
+npx create-react-app app_name
+npx create-react-app facebook 
+cd foldername
+
+start application :
+----------------------------
+npm start
+
+----------------------------------------
+components :
+ java script functions 
+
+ types of components :
+----------------------------------
+1.Functional component
+2.class Component
+----------------------------------------
+1.Functional component
+ 
+ # normal function
+# Arrow function
+----------------------------
+.html
+.css
+.js
+.jsx
+-------------------------------
+jsx :
+javascipt xml 
+
+---------------------
+
+import React from "react";
+function One(){
+    return(
+        <h1>component one </h1>
+    )
+}
+export default One
+----------------------------
+import React from "react";
+
+function Two(){
+    return(
+        <h1>Component two</h1>
+    )
+}
+export default Two
+-------------------------------
+import React from "react";
+
+const Three=()=>{
+    return(
+        <h1>Component Three</h1>
+    )
+}
+export default Three
+--------------------------------
+import React from "react";
+
+const Four=()=>{
+    return(
+        <h1>Componet Four</h1>
+    )
+}
+export default Four
+------------------------------------
+
+
+import React from 'react';
+import One from './Components/One';
+import Two from './Components/Two';
+import Three from './Components/Three';
+import Four from './Components/Four';
+function App() {
+  return (
+    <div className="App">
+
+     <One/>
+     <Two/>
+     <Three />
+     <Four/>
+    </div>
+  );
+}
+
+export default App;
+
+------------------------------------------------------
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+--------------------------------------
+
